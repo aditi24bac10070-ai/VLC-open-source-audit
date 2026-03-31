@@ -1,6 +1,5 @@
 # VLC-open-source-audit
-Open Source Software Audit Project on VLC Media Player including scripts, analysis, and documentation.
-# VLC Open Source Software Audit
+Open Source Software Audit Project on VLC Media Player including scripts, analysis, and documentation
 
 ## Student Information
 
@@ -53,6 +52,7 @@ Open source promotes transparency, collaboration, and knowledge sharing. It allo
 
 # Part B — Linux Footprint
 
+
 ## Installation
 
 VLC can be installed in Linux using:
@@ -60,8 +60,6 @@ VLC can be installed in Linux using:
 ```bash
 sudo apt install vlc
 ```
-
-📸 *Add Screenshot: VLC installation in terminal*
 
 ---
 
@@ -80,7 +78,6 @@ Check executable location:
 which vlc
 ```
 
-📸 *Add Screenshot: which vlc output*
 
 ---
 
@@ -93,7 +90,6 @@ ps aux | grep vlc
 
 VLC runs as a normal user process, improving system security.
 
-📸 *Add Screenshot: process output*
 
 ---
 
@@ -111,7 +107,6 @@ Update system:
 sudo apt update && sudo apt upgrade
 ```
 
-📸 *Add Screenshot: VLC running + update command*
 
 ---
 
@@ -197,7 +192,7 @@ echo "System Uptime: $(uptime -p)"
 echo "Current Date and Time: $(date)"
 ```
 
-📸 *Add Screenshot: script1 output*
+
 
 ---
 
@@ -213,7 +208,6 @@ else
 fi
 ```
 
-📸 *Add Screenshot: script2 output*
 
 ---
 
@@ -228,7 +222,6 @@ do
 done
 ```
 
-📸 *Add Screenshot: script3 output*
 
 ---
 
@@ -248,8 +241,6 @@ done < $1
 echo "Total number of errors: $count"
 ```
 
-📸 *Add Screenshot: script4 output*
-
 ---
 
 ## Script 5 — Manifesto Generator
@@ -261,7 +252,6 @@ echo "I believe in open-source software and use $tool." > manifesto.txt
 cat manifesto.txt
 ```
 
-📸 *Add Screenshot: script5 output*
 
 ---
 
